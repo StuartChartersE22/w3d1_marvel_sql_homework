@@ -34,6 +34,7 @@ INSERT INTO people (name) VALUES ('Benjamin	Robinson');
 INSERT INTO people (name) VALUES ('Stephen	Rooney');
 INSERT INTO people (name) VALUES ('Can	Toraman');
 INSERT INTO people (name) VALUES ('Daniel	Warren');
+INSERT INTO people (name) VALUES ('John Harper');
 
 INSERT INTO movies (title, year, show_time) VALUES ('Iron Man', 2008, '23:55');
 INSERT INTO movies (title, year, show_time) VALUES ('The Incredible Hulk', 2008, '12:10');
@@ -59,6 +60,6 @@ UPDATE people SET name = 'Jesus	Perez' WHERE name = 'Jezuz	Perez';
 DELETE FROM movies WHERE title = 'Batman Begins';
 
 
-SELECT * FROM movies;
--- SELECT name FROM people;
+-- SELECT * FROM movies;
+SELECT name FROM people;
 -- SELECT name FROM people WHERE name = 'Stuart	Charters';
