@@ -62,6 +62,10 @@ DELETE FROM movies WHERE title = 'Batman Begins';
 DELETE FROM people WHERE name = 'Emily Milne';
 
 
-SELECT * FROM movies;
+-- SELECT * FROM movies;
 -- SELECT name FROM people;
 -- SELECT name FROM people WHERE name = 'Stuart	Charters';
+SELECT show_time FROM movies WHERE title = 'Guardians of the Galaxy';
+UPDATE movies SET show_time = '21:05' WHERE title = 'Guardians of the Galaxy 2';
+
+SELECT * FROM movies;
