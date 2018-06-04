@@ -77,7 +77,40 @@ Use the supplied data as the source of data to answer the questions. Copy the SQ
   Daniel  Warren
 
 3.  Oops! Someone at CodeClan spelled Jesus's name wrong! Change it to reflect the proper spelling ('Jezuz Perez' should be 'Jesus Perez').
+
+  UPDATE people SET name = 'Jesus	Perez' WHERE name = 'Jezuz	Perez';
+
+    name            
+  ---------------------------
+  Shaun   Adams
+  James   Amos
+  Lee     Burgess
+  Stuart  Charters
+  Wil     Cornish
+  Gregor  Cox
+  Chris   Craig
+  Gabriel González Villalba
+  James   Henderson
+  Edward  Kinley
+  Magdalena       Kisala
+  Emily Milne
+  Iona    Macbeth
+  Gary    Muir
+  Helen   Oshea
+  David   Pears
+  Benjamin        Robinson
+  Stephen Rooney
+  Can     Toraman
+  Daniel  Warren
+  Jesus   Perez
+
 4.  Return ONLY your name from the 'people' table.
+
+  SELECT name FROM people WHERE name = 'Stuart	Charters';
+    name       
+  ------------------
+  Stuart  Charters
+
 5.  The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
 6.  Create a new entry in the 'people' table with the name of one of the instructors.
 7.  Emily Milne has decided to hijack our movie evening, Remove her from the table of people.
