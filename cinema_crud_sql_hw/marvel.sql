@@ -56,7 +56,9 @@ INSERT INTO movies (title, year, show_time) VALUES ('Thor: Ragnarok', 2017, '14:
 INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '15:00');
 
 UPDATE people SET name = 'Jesus	Perez' WHERE name = 'Jezuz	Perez';
+DELETE FROM movies WHERE title = 'Batman Begins';
 
--- SELECT * FROM movies;
+
+SELECT * FROM movies;
 -- SELECT name FROM people;
-SELECT name FROM people WHERE name = 'Stuart	Charters';
+-- SELECT name FROM people WHERE name = 'Stuart	Charters';
